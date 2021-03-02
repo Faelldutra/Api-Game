@@ -73,8 +73,7 @@ export default class AsNavFor extends Component {
           accessibility={true}
           initialSlide={0}
           className='carousel carousel2'
-          slickGoTo={0}
-          
+          slickGoTo={0}    
         >
           {skins.map(skin => (
             <div key={skin.id}>
